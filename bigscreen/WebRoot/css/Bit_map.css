@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0 auto;padding:0; font-size:12px;}
+html{overflow:auto; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+body{text-align:center;font-family:"微软雅黑"; font-size:12px; background:#f7f7f7; padding:10px;}
+input,select,textarea{outline:none; font-family:"微软雅黑"; }
+a{text-decoration:none; color:#4a86d8;}
+a:hover{text-decoration:underline;}
+a:active {outline: 0;}
+ul{list-style:none;}
+img{border:0; -ms-interpolation-mode: bicubic; vertical-align: middle;}
+/*div{line-height:100px;}*/
+.ml10{margin-left:10px;}
+.ml5{margin-left:5px;}
+.bit_map_top{height:38px; background:#f7f7f7; line-height:38px;}
+.bit_map_top span{float:left;}
+.r_span{color:#55acee; font-weight:bold;}
+/*table*/
+.table{width:100%;border-collapse:collapse;border-spacing:0;background:#fff; text-align:left; font-family:"微软雅黑"; font-size:12px;}
+.table td,.table th{line-height:18px; padding:6px; border-bottom:1px solid #d7d7d7; border-right:1px solid #d7d7d7; vertical-align:middle; word-wrap:break-word;word-break:break-all;}
+.table th{background:#F7F7F7; border-bottom:0px;}
+.table tr th:last-child,.table tr td:last-child{border-right:0;}
+.ltd{text-align:right;}
+.rtd{text-align:left;}
+.win_table td,.win_table th{border:none;}
+.stop_use_btn{background:#6CC; border: 0px solid #C8CCD5; cursor: pointer; height: 20px; 
+line-height:normal; width:60px; color:#fff; font-size:12px; text-align:center; float:right;}
+.repaier_btn{background:#CCC; border: 0px solid #C8CCD5; cursor: pointer; height: 20px; 
+line-height:normal; width:60px; color:#fff; font-size:12px; text-align:center; float:right;}
+
+
+.div_con{width:1800px; height:812px; background:#ffffa8; position:relative;}
+/*桌子*//*包括横向和纵向*/
+.desk_div{width:58px; height:23px; border:1px solid #999; cursor:pointer; position:absolute;
+text-align:center; text-indent:25px; line-height:23px;}
+.col_desk{width:23px; height:58px; border:1px solid #999; cursor:pointer; position:absolute;}
+/*桌子开口方向*/
+.open_top{border-top:1px solid #ffffa8;}
+.open_left{border-left:1px solid #ffffa8;}
+.open_right{border-right:1px solid #ffffa8;}
+.open_bottom{border-bottom:1px solid #ffffa8;}
+/*桌子状态*/.desk_broke{background-color:#CCC;}
+/*墙壁*/.thewall{background:#c3c3c3; position:absolute;}
+/*更衣室*/.garderobe{position:absolute;}
+/*茶水间*/.tea_room{position:absolute;}
+/*培训室*/.training_center{position:absolute;}
+/*仓库*/.storehouse{position:absolute;}
+/*听音室*/.listion_room{position:absolute;}
+/*机房*/.generator_room{position:absolute;}
+/*楼梯*/.up_stairs{position:absolute;}
+/*卫生间*/.man_toilet{position:absolute;}
+/*配电室*/.power_distribution_room{position:absolute;}
+/*打印机*/.printer_room{position:absolute;}  
+/*电梯*/.electrical_lift{position:absolute;}  
+/*出口*/.the_door{width:100px; height:20px; background:#002d67; position:absolute;}
+/*其他*/
+.other_room{background:#FFF; position:absolute;}
+.the_col_door{width:20px; height:100px; background:#002d67; position:absolute;}
+/*人的状态*/
+/*.abnormal_people{ background-image:url(../img/abnormal_people.png) 5px 0px;}
+.normal_people{background:url(../img/normal_people.png) no-repeat 28px 3px;}
+.eat_people{background:url(../img/eat_people.png) no-repeat 28px 3px;}
+.col_abnormal_people{background:url(../img/abnormal_people.png) no-repeat 3px 28px;}
+.col_normal_people{background:url(../img/normal_people.png) no-repeat 3px 28px;}
+.col_eat_people{background:url(../img/eat_people.png) no-repeat 3px 28px;}*/
+/*布局位置*/
